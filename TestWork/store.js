@@ -7,4 +7,4 @@ const sagaMiddleware = createSagaMiddleware();
 
 export default createStore(combineReducers, applyMiddleware(sagaMiddleware));
 
-sagaMiddleware.run(rootSaga);
+// sagaMiddleware.run(rootSaga);
